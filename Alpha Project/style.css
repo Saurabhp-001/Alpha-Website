@@ -1,0 +1,201 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(./Images/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto cover;
+    /* background-position: center; */
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* HeaderSection CSS start */
+
+#HeaderSection{
+    color: white;
+    width: 100%;
+    margin-top: -7px;
+}
+#HeaderSection h1{
+    font-size: 17px;
+    margin: 17px 0px 0px 15px;
+    display: inline-block;
+    width: 30%;
+}
+#HeaderSection h1 span{
+    font-weight: 100;
+}    
+#HeaderSection ul{
+    display: inline-block;
+    width: 66%;
+    position: absolute;
+    right: -600px;
+    margin-top: 10px;
+}
+#HeaderSection ul li{
+    display: inline-block;
+    padding: 3px 15px;
+    font-size: 17px;
+    margin-left: 7px;
+}
+#SignUp{
+    border: 2px solid #d9d4cf;
+    border-radius: 6px;
+}
+/* HeaderSection CSS end */
+
+/* BodySection CSS start */
+#BodySection{
+    text-align: center;
+    color: white;
+}
+#BodySection h2{
+    font-size: 58px;
+    margin-top: 120px;
+}
+#BodySection p{
+    font-size: 21px;
+    margin-top: -35px;
+}
+#BodySection ul{
+    display: inline-block;
+    margin: 18px 24px 0px 0px;
+}
+#BodySection ul li{
+    display: inline-block;
+    border: 2px solid #d4cece;
+    border-radius: 6px;
+    padding: 11px 60px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 900px;
+}
+#SignUpBtn{
+    background-color: white;
+    color: #6b6b6b;
+    font-weight: 900;
+    border: 2px solid white !important;
+    padding: 12px 75px !important;
+}
+/* BodySection CSS end */
+
+/* DecriptionSection CSS start */
+
+#DescriptionSection{
+    width: 78%;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 137px;
+    border-radius: 10px 10px 10px 10px; 
+}
+#DescriptionSection h1{
+    padding: 72px 0px 0px 0px;
+    margin-bottom: 16px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+}
+#DescriptionSection p{
+    font-size: 22px;
+    letter-spacing: -0.25px;
+    padding: 38px 0px 38px 0px;
+    display: inline-block;
+    border-top: 2px solid #e5e5e5;
+} 
+#DescriptionSection img{
+    display: block;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+/* DescriptionSection CSS end */
+
+/* IconSection CSS start */
+#IconSection{
+    background-color: white;
+    width: 78%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 6px; 
+}
+#IconSection h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+#IconSection p{
+    font-size: 18px;
+}
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+} 
+#IconSection #IconDiv1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+#IconSection #IconDiv4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+/* IconSection CSS end */
+
+/* ImageSection CSS start */
+
+#ImageSection{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#ImageSection div{
+    width: 48%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    color: #787878;
+}
+#ImageSection div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+#ImageSection div h1{
+    font-weight: 100;
+    padding: 55px 0px 25px 0px;
+}
+#ImageSection div p{
+    font-size: 20px;
+    font-weight: 100;
+}
+#ImageSection div button{
+    background-color: white;
+    border: 2px solid #e6e6e6;
+    border-radius: 6px;
+    color: #787878;
+    font-size: 16px;
+    margin: 25px 0px 60px 0px;
+    padding: 17px 40px;
+}
+
+/* ImageSection CSS end */
+
+/* FooterSection CSS start */
+
+#FooterSection{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+} 
+#DivFooter1{
+    background-color: #e89980;
+    color: white;
+    width: 100%;
+}
+#DivFooter1 h1{
+    font-size: 35px;
+}
+#DivFooter1 p{
+
+}
+/* FooterSection CSS end */
